@@ -39,7 +39,8 @@ body {
 .header {
 	height: 35px;
 	width: 1215px;
-    background-color: #074c89;
+    /*background-color: #074c89;*/
+    background: url('../img/header_blue.jpg');
     display: inline-block;
     margin-bottom: -5px;
     font-family: 'HelveticaNeue-Regular', 'helveticaneuecyrblack';
@@ -52,7 +53,7 @@ body {
  .containier li{
  	letter-spacing:normal;
     display: -moz-inline-stack!important;
-    zoom:1;
+    /*zoom:1;*/
 text-align: center;
  }
 .enter {
@@ -62,7 +63,7 @@ text-align: center;
 	line-height:35px;
     letter-spacing:normal;
     display: -moz-inline-stack!important;
-    zoom:1;
+    /*zoom:1;*/
 	text-align: center;
 	height: 35px;
 	width: 175px;
@@ -80,7 +81,7 @@ text-align: center;
 	line-height:35px;
     letter-spacing:normal;
     display: -moz-inline-stack!important;
-    zoom:1;
+    /*zoom:1;*/
 	text-align: center;
 	height: 35px;
 	width: 100px;
@@ -94,7 +95,7 @@ text-align: center;
 	line-height:35px;
     letter-spacing:normal;
     display: -moz-inline-stack!important;
-    zoom:1;
+    /*zoom:1;*/
 	text-align: center;
 	height: 35px;
 	width: 50px;
@@ -111,20 +112,28 @@ ul.top {
 }
 .top li {
 	display: inline-block;
-	font-size: 14px;
-	color: #60b5ed;
+	/*font-size: 14px;
+	color: #60b5ed;*/
 	line-height:35px;
     letter-spacing:normal;
     display: -moz-inline-stack!important;
-    zoom:1;
-text-align: center;
-height: 35px;
- padding: 0 10px;
+    /*zoom:1;*/
+    text-align: center;
+    height: 35px;
+    padding: 0 10px;
+}
+.top a {
+    font-size: 14px;
+	color: #60b5ed;
+
 }
 .top li:hover {
 	background-color: #4eabda;
-	color: white;
+	/*color: white;*/
 	cursor: pointer;
+}
+.top a:hover {
+	color: white;
 }
 .wrapper {
 	clear: both;
@@ -163,7 +172,7 @@ height: 35px;
 button {
 	height: 33px;
 	width: 270px;
-padding: 0px;
+    padding: 0px;
 	border: 0px;
 	border-radius: 7%;
 	background-repeat: no-repeat;
@@ -192,7 +201,7 @@ input {
 	border-bottom: 1px #494a48 solid;
 	font-family: 'HelveticaNeue-Regular', 'helveticaneuecyrblack';
 }
-input:hover {
+input:focus{
 	background-color: #1b5288;
 	box-shadow: 0 0 15px #5791b9;
 }
@@ -202,7 +211,7 @@ input:hover {
 	box-shadow: none;
 }
 .form li .create {
-	background-color: #3382c8;
+	background: linear-gradient(to bottom, #6bb8e7, #2e7ac4);
 	height: 35px;
 	width: 135px;
 	border-radius: 10%;
