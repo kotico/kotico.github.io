@@ -179,7 +179,7 @@ button {
 	cursor: pointer;
 }
 hr {
-	size: 1px;
+	/*size: 1px;*/
 	width: 120px;
 	color: #666666;
 	display: inline-block;
