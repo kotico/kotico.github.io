@@ -1562,9 +1562,11 @@
 }
 }
 @media (max-width: 479px) {
+	
 	.rounds--bottom {
-	margin: -327px 20px 67px 1185px;
-	float: left;
+	display: block;
+	margin: -357px 20px 67px 130px;
+	position: absolute;
 }
 
 .rounds--bottom .rounds_item {
