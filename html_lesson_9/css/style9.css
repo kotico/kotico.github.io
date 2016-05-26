@@ -154,6 +154,18 @@
 	.menu {
 		display: none;
 	}
+	/*.home__button {
+		display: block;
+		margin: 0 auto;
+		padding-top: 10px;
+		padding-bottom: 2px;
+		margin-bottom: 2px solid #edbfff;
+		color: white;
+		font: 24px 'leaguegothic-regular', Arial, Tahoma, sans-serif;
+		text-align: center;
+		text-decoration: none;*/
+
+	
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -254,8 +266,8 @@
 	display: none;
 	position: absolute;
 	background-color: rgba(63, 50, 72, 0.5);
-	border-radius: 15px;
-	top: 19px;
+	border-radius: 20px;
+	top: -15px;
 	width: 245px;
 	text-align: center;
 	z-index: 22;
@@ -296,6 +308,7 @@
 .menu480 li:hover .menu480_item li {
 	background-color: rgba(63, 50, 72, 0.5);
     text-decoration:none;
+    
 }
 .menu480 li .menu480_item li:first-child:hover{
       border-radius: 15px 15px 0 0;
@@ -304,8 +317,9 @@
       border-radius: 0 0 15px 15px;
     }
 .menu480 li:hover .menu480_item li:hover {
-	background-color: rgba(63, 50, 72, 0.85);
+	background-color: rgba(62, 49, 70, 0.85);
 	border-bottom: 2px solid #edbfff;
+
 }
 }	
 @media (min-width: 960px) {
