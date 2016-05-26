@@ -48,7 +48,7 @@ body {
  ul.containier {
  	font-size: 0px;
     line-height:0px;
-    letter-spacing:-1px;
+    /*letter-spacing:-1px;*/
  }
  .containier li{
  	letter-spacing:normal;
@@ -72,7 +72,7 @@ text-align: center;
 	color: inherit;
 }
 .enter:hover {
-	background-color: #317ec6;
+	background: linear-gradient(to bottom, #50afdc, #2e7ac4);
 }
 .link {
 	float: right;
@@ -125,6 +125,7 @@ ul.top {
 .top a {
     font-size: 14px;
 	color: #60b5ed;
+	text-decoration: none;
 
 }
 .top li:hover {
