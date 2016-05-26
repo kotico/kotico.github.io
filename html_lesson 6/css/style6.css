@@ -356,11 +356,11 @@ figure p {
 	float: left;
 	line-height: 26px;
 }
-#in {
+.in {
 	list-style-image: url(../img/marker.png);
 	margin-bottom: 1px;
 }
-#in li {
+.in li {
 	font-size: 12px;
 	color: #465961;
 	font-family: Lucida;
@@ -372,7 +372,7 @@ figure p {
 	margin-top: -1px;
 	letter-spacing: 1.5px;
 }
-#in li:hover {
+.in li:hover {
 	font-style: italic;
 	font-weight: bold;
 	text-decoration: underline;
@@ -422,7 +422,7 @@ figure p {
 	float: left;
 	margin-top: 5px;
 }
-#rin li {
+.rin li {
 	font-size: 12px;
 	color: #465961;
 	font-family: Lucida;
@@ -431,10 +431,10 @@ figure p {
 	width: 100px;
 	letter-spacing: 3px;
 }
-#rin li input {
+.rin li input {
 	vertical-align: middle;
 }
-#rin li label {
+.rin li label {
 	vertical-align: middle;
 }
 .aright button {
